@@ -6,10 +6,10 @@
 
 # MVP简介
 
-View：对应于布局文件
-
 Model：业务逻辑和实体模型
 
-Controllor：对应于Activity
+View：对应于Activity，负责View的绘制以及与用户交互
+
+Presenter：负责完成View于Model间的交互
 
 ![image](https://github.com/liyi828328/MVP/raw/master/MVP.png)
