@@ -7,7 +7,9 @@
 #MVP简介
 
 View：对应于布局文件
+
 Model：业务逻辑和实体模型
+
 Controllor：对应于Activity
 
 ![image](https://github.com/liyi828328/MVP/raw/master/MVP.png)
