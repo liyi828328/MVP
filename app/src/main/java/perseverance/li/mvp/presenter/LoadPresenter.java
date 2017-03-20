@@ -37,7 +37,8 @@ public class LoadPresenter implements IBase {
 
     public void load() {
         mShopDetailView.showLoadDialog();
-        mLoadShopDetailBiz.load(mShopDetailView.getLoadUrl(), mShopDetailView.getLoadStartIndex(),
+        mLoadShopDetailBiz.load(mShopDetailView.getLoadUrl(),
+                mShopDetailView.getLoadStartIndex(),
                 mShopDetailView.getLoadCount(), onShopLoadListener);
     }
 

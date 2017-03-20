@@ -21,7 +21,8 @@ import java.util.List;
 public class LoadShopDetailBiz implements ILoadShopDetailBiz {
 
     @Override
-    public void load(final String httpUrl, final int startIndex, final int count, final OnShopLoadListener listener) {
+    public void load(final String httpUrl, final int startIndex, final int count,
+                     final OnShopLoadListener listener) {
         new Thread(new Runnable() {
             @Override
             public void run() {
@@ -53,5 +54,4 @@ public class LoadShopDetailBiz implements ILoadShopDetailBiz {
     public void destory() {
         //TODO:销毁线程 task等,防止内存泄露
     }
-
 }
