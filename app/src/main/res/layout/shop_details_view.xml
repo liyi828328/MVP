@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <EditText
+        android:text="http://www.github.com"
+        android:id="@+id/http_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入加载链接" />
+
+    <EditText
+        android:text="0"
+        android:id="@+id/start_index"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入加载开始位置"
+        android:inputType="numberDecimal" />
+
+
+    <EditText
+        android:text="20"
+        android:id="@+id/count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入加载数量"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/load"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:text="加载" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
